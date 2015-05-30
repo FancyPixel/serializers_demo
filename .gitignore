@@ -38,4 +38,6 @@ build/
 # Mac stuff
 .DS_Store
 
-logs/
+log/
+db/development.sqlite3
+test/*
