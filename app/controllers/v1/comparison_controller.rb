@@ -20,8 +20,7 @@ module V1
     private
 
     def load_awsomeness
-      # Awesome stuffs are loaded from DB in config/initializers/load_awesome_stuffs.rb
-      @awesome_stuffs = AWESOME_STUFFS
+      @awesome_stuffs = AwesomeStuff.all
     end
   end
 end
