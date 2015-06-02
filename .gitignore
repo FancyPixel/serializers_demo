@@ -39,5 +39,5 @@ build/
 .DS_Store
 
 log/
-db/development.sqlite3
+db/*.sqlite3
 test/*
