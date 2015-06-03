@@ -1,8 +1,18 @@
 This simple demo app is here to show a solution that we’re using in [Fancy Pixel](http://fancypixel.it) 
 for the JSON generation and that can be a quick and easy alternative to most commonly used systems 
 like [Jbuilder](https://github.com/rails/jbuilder) or [ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers).
+You can find the post on [our blog](http://fancypixel.github.io/blog/2015/06/01/apis-with-rails-render-json-the-simple-way/)
 
-#MIT License
+# Setup
+
+```
+    git clone "https://github.com/FancyPixel/serializers_demo"
+    cd serializers_demo
+    bundle
+    rake db:create && rake db:migrate && rake db:seed
+```
+
+# MIT License
 
 	Copyright (c) 2015 Fancy Pixel S.r.l. All rights reserved.
 
